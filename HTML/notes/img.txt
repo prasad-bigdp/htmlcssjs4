@@ -1,0 +1,5 @@
+Images are the way of representing info visually. to keep images in html page, we use img tag
+img is a self closing tag
+<img src="path" alt="alternate title" />
+for local image use './'for same folder
+'../' for previous folder

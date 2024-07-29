@@ -1,0 +1,60 @@
+Forms in HTML are used to take user Input.
+forms are written inside <form> tag
+Every Form input element will be written by <input> tag
+input is self closing inline element which contains following attributes
+type: represents type of the input element
+placeholder: represents dummy text placed until user enters value
+value: default value to appear
+name: name of value received by another file
+
+form tag also contains two attributes "action" and "method"
+action: path of file to send data
+method :  way of sending data
+ -- get : details will be stored in URL
+ -- post : details will not be shown in URL
+
+There are different types of Inputs:
+text: used for texts
+email : used for emails
+password: used for hidden data(passwords)
+number: used for numerical data
+date: used for dates
+date-time-local: used for date with time
+time: used for times
+month: used for month with year
+file: used for file uploads
+url: used for url links
+tel: used for telephone
+color: used for color Inputs
+week: used for week numbers
+search: used for search elements
+hidden: used for hidden Inputs
+submit : used for buttons with form submit
+reset: used for buttons with form reset
+textarea: used for addresses or larger inputs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

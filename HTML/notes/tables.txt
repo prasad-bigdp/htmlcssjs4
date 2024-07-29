@@ -1,0 +1,12 @@
+9154861171 - manoj sir
+tables are used to represent the data in a simpler ways, we can use rows and columns in table. rows are horizontal ones and columns are vertical ones
+whole table is defined by "table" tag,
+table contains "tr" to represents table rows
+table rows contains "th" or "td" to represent table headings or table data.
+by default th will be bold and cenetered
+to combine two columns , we can use colspan
+and for rows, we can use "rowspan"
+To see the table border , you can give attribute "border" to table
+table can also contains attributes like cellspacing and cellpadding
+Title of the table can be mentioned by caption
+

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    margin: auto;
+}
+.color
+{
+        margin: auto;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 0,0.2);
+   
+    border-radius: 50%;
+}
+.stand
+{
+    background-color: black;
+    height: 60vh;
+    width: 20px;
+        margin: auto;
+}
+.orange{
+    transition: all 2s;
+}
+.red{
+    transition: all 2s;
+}
+.green{
+    transition: all 3s ease-in-out 5s;
+}
+.red:hover
+{
+    background-color: red;
+    height: 50px;
+    width: 250px;
+    transform: translateX(300px);
+}
+.green:hover{
+    background-color: green;
+    transform: translateX(200px);
+    height: 200px;
+    width:200px;
+}
+.orange:hover{
+    background-color: orange;
+    transform:scale(1.25)
+}

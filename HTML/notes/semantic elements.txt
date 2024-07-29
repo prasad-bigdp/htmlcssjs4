@@ -1,0 +1,5 @@
+semantic elements uses tags which can be understandable by search engines easily
+They improve readability of the code
+They also improves SEO of the Page
+popular semantic elements are header,footer,main,section,article,summary,address,aside etc..,
+tables also contains semantic elements like thead,tbody,tfoot

@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+  
+}
+.main{
+  
+    border: 2px solid black;
+}
+
+.box{
+    height: 200px;
+    width: 50px;
+    background-color: red;
+    border: 1px solid white;
+   
+}
+/* .box2{
+    position: absolute;
+    top:85px;
+    left:93px;
+    z-index: 101;
+}
+.box3{
+    position: relative;
+    z-index:100
+} */
+ .box2{
+  position: sticky;
+  top: 0px;
+   
+ }
+ .box2{
+    height: 50px;
+    background-color: blue;
+}

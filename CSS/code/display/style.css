@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 10px;
+    color: white;
+    border-radius: 20px;
+   padding: 40px;
+    display: inline-block;
+}
+.box1{
+   display: none;
+}
+
+.main2 img{
+    float:right;
+}
+.main2 p{
+   clear: right;
+}

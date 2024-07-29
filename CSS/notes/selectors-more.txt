@@ -1,0 +1,77 @@
+element element ---> descendant selector
+eg : div p
+
+element>element --->
+immediate child selector
+eg: div>p
+
+element + element -->
+same parent elements
+eg: div+p
+
+element[attr="value"] -->
+element with specific attribute value
+eg: input[type="text"]
+
+pseudo classes:
+these selector are followed by ::
+popular ones are
+::placeholder
+::before
+::after
+::first-line
+::first-letter
+
+before and after may use content
+
+pseudo-elements:
+these selectors are used followed by :
+
+:nth-child(n)--> selects elements who occured as a nth child. count is important here
+eg: div>p:nth-child(1) selects paragraph inside div and which is first child of div 
+
+:nth-last-of-child(n) --> selects elements who occured as nth child from last.
+eg:div>p:nth-last-of-child(n)--> selects paragraph inside div and first child from last
+
+:first-child,:last-child:
+you can select first and last children directly 
+
+:nth-of-type(n)--> selects elements with its type and occured in nth time
+eg: div>p:nth-of-type(1)--> select first paragraph child
+
+:nth-last-of-type(n)--> selects elements with its type and occured in nth time from last
+eg: div>p:nth-of-type(1)--> select first paragraph child from last
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+Formatting tags are used to format the text
+b - b is used to make the text bold
+strong - also used to make text bold but search engines understands it well
+i - used to make text italic
+em- also used to make the text italic but search understands it well
+u- u is used to make the text underline
+ins - also used to make text underline but it means text is inserted according to search engines
+del- strikes out the text
+mark- used to highlight the text
+sub- used to keep subscripts
+sup- used to keep superscripts
+pre- pre is used to bring preformat including spaces
+code - is used to write codes
+address - used for adresses which by default italic
+br- break the line
+hr- horizontal line
+
+
+
+
+
+
+

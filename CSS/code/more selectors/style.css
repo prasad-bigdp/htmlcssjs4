@@ -1,0 +1,45 @@
+div>p
+{
+    color:red;
+}
+input::placeholder
+{
+    color: green;
+}
+div+p::first-letter
+{
+    color: blue;
+    font-size: 24px;
+}
+div+p::first-line{
+    background-color: aqua;
+}
+div+p::before
+{
+    content:"prasad"
+}
+div+p::after
+{
+    content:'"'
+}
+.box{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: orangered;
+}
+.main div:nth-last-of-type(3)
+{
+     background-color: black;  
+}
+input:not()
+{
+    border: 1px solid red;
+}
+
+
+
+
+
+
+

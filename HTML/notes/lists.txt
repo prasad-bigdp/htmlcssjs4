@@ -1,0 +1,22 @@
+list is used to note down a certain elements
+eg:grocery list, book list, attendance list,todo list,contact list,
+
+Lists here are three types
+1. ordered list
+2. unordered list
+3. definition list
+1. ordered list is used to represent list of items in an order
+<p>contacts</p>
+<ol>
+<li></li>
+</ol>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+Inline vs Block:
+There are two types of elements in HTML
+Block elements: always in a new line and will not allow any other elements beside them
+Inline Elements: always in same line and allow next elements beside if it fits
+
+div is a general block element and span is a general inline element
+
+
+

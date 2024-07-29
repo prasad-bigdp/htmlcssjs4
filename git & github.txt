@@ -1,0 +1,5 @@
+when we start coding, we may ran into bugs
+
+Git is a distributed version control system that monitors code for every change
+
+download Git

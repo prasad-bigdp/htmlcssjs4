@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegForm</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="main.py">
+       <div>
+         <label for="un">Username:*</label> 
+         <input type="text" value="prasaddd" name="un" id="un" maxlength="10" minlength="8" required readonly>
+       </div><br>
+      <div>
+         <label for="em">Email:</label>
+         <input type="email" name="em" id="em">
+      </div><br>
+      <div>
+        <label for="pwd">Password:</label>
+        <input type="password" name="pwd" id="pwd"  pattern="[A-Za-z]{5}">
+      </div>
+      <div>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" min="18" max="25">
+      </div>
+      <div>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob" disabled>
+      </div>
+      <div>
+        <label for="mob">Mobile number</label>
+        <input type="tel" name="mob" id="mob">
+      </div>
+     <!-- radio buttons  - used to input values which are unique , only one choice -->
+     <div>
+         <label for="">Gender:</label>
+      <input type="radio" value="male" name="gen" id="m">
+      <label for="m">Male</label>
+      <input type="radio" value="female" name="gen" id="f">
+      <label for="f">Female</label>
+     </div><br>
+
+      <!-- checkboxes -->
+       <div>
+        <label for="">Skills:</label>
+       <input type="checkbox" name="skills" id="html" value="html">
+       <label for="html">HTML</label>
+       <input type="checkbox" name="skills" id="css" value="css">
+       <label for="css">CSS</label>
+       <input type="checkbox" name="skills" id="js" value="js">
+       <label for="js">JS</label>
+       </div>
+
+      <!-- drop downs -->
+       <label for="country">select country:</label>
+       <select name="country" id="country" multiple size="4">
+           <option value="in">INDIA</option>
+           <option value="us">US</option>
+           <option value="AF">Afganistan</option>
+           <option value="IT">Italy</option>
+           <option value="PA">PARIS</option>
+       </select>
+
+   <!-- List of subjects in Btech -->
+    <label for="sub">Select a subject</label>
+    <select name="sub" id="sub">
+      <optgroup label="EEE">
+         <option value="BEEE">BEEE</option>
+         <option value="PS">Power System</option>
+         <option value="VLSI">VLSI</option>
+      </optgroup>
+      <optgroup label="MECH">
+         <option value="FM">FM</option>
+         <option value="TD">TD</option>
+      </optgroup>
+      <optgroup label="CSE">
+         <option value="dbms">DBMS</option>
+         <option value="dsa">DSA</option>
+         <option value="os">OS</option>
+         <option value="SE">SE</option>
+      </optgroup>
+     <option value="ED">ED</option>
+    
+
+    </select><br><br>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+    </form>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    
+</body>
+</html>

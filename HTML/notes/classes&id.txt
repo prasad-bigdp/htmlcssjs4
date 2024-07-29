@@ -1,0 +1,6 @@
+classes and ID:
+
+To identify an element , we will name the element using a class or id
+classname: it is given by class attribute and one element may contain multiple classnames and multiple elements also contain same class name
+
+id: it is given by id attribute and used to identify element uniquely. one element must contain only one id and no two elements should contain same id

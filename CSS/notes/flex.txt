@@ -1,0 +1,29 @@
+we can use display property to make elements block,inline or inline-block or table or none
+
+but we have respnsive layout options like flexbox
+
+flex is used to arrange child items in single direction flexibly
+
+To do this, we should give display flex to parent
+flex-direction : defines the direction in which child items arranged.(row/column/row-reverse/column-reverse)
+flex-wrap: defines whether we want to wrap the elements or not(nowrap/wrap/wrap-reverse)
+flex-flow: flex-direction flex-wrap;
+There are two axis , main axis(flex-direction), cross axis(opp.flex-direction)
+
+justify-content: move the items towards main-axis
+jusity-items: move the items towards main axis with wrap
+align-items : move the items towards cross axis
+align-content: move the items towards cross axis with wrap
+gap: gap- between the elements
+
+child properties:
+flex-grow: makes how much growth a single item can have
+flex-shrink : makes how much shrink a single item can have
+flex- basis: fixed width of a single item
+order: number by which elements are arrange. by default order is 1
+justify-self: move single item along main axis
+align-self: move single item along cross axis
+
+
+
+

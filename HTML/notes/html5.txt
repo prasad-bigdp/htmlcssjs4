@@ -1,0 +1,5 @@
+HTML also allows some advanced features such as 
+svg,canvas,dragndrop,geolocation,data attributes called HTML5 advanced features
+svg: svg is used to show svg images it is svg canvas
+canvas: empty canvas for drawing
+difference between canvas and svg is svg can also be used for images with path

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+     box-sizing: border-box;
+}
+/* */
+body{
+background-image: url('https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+font-family: "Pacifico", cursive;
+
+    height: 100vh;
+}
+h1
+{
+    color: white;
+    font-size: 48px;
+    text-align: right;
+     text-decoration:2px dotted green;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    text-shadow: 2px 2px yellow;
+    background-color: aqua;
+    padding: 10px;
+    width: max-content;
+    box-shadow: 5px 5px red;
+    font-size: 50px;
+    
+   
+}
+
+
+p{
+    background-color: green;
+}
+.para{
+    background-color: aqua;
+}
+#bujji
+{
+    background-color: blue;
+    width: max-content;
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 100px;
+   font-weight: bolder;
+   font-style: italic;
+   
+}

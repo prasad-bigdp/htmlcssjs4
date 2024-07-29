@@ -1,0 +1,40 @@
+internet fundamentals
+Developer Tools
+Browsers
+Hashnode,dev.to
+figma
+visual studio code
+HTML:
+  -- History
+  -- Basic structure
+  -- headings,paragraph
+  -- anchor
+  -- img
+  -- lists
+  -- formatting tags
+  -- br,hr
+  -- inline , block
+  -- tables
+  -- semantic elements
+  -- classes and id
+  -- forms
+  -- form inputs
+  -- validations
+  -- media
+  -- HTML5 -- will be discussed in JS again
+
+Projects:
+---------
+WWW
+Profile
+Time tables
+Resume
+Form
+Tribute page include media also
+
+
+
+
+
+
+

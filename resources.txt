@@ -1,0 +1,50 @@
+internet
+web devlopement process
+web design(ui/ux),figma
+hashnode,dev.to
+html
+---------
+intro,
+heading,p,a,img
+lists
+tables
+block vs inline, semantic
+forms
+media,formatting tags
+html:5
+
+  -- WWW,Profile,Timetable,Form,resume
+
+
+CSS
+----
+intro,
+fonts,colors
+bg-images,ccolors,gradients
+units
+box model
+flex
+grid
+transition
+animations
+advanced selectors
+positions,float,3d
+
+--- frontendmentor
+-- traffic lights
+-- tribute page
+
+Main --> HTML,CSS Portfolio
+
+
+Bootstrap --- introduction, breakpoints & layout , Components
+
+Js- 4 weeks
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+you can define units by 
+'px' - pixel is a smallest unit of screen
+
+em - enumerated value---> x times of parent font-size
+
+rem - x times of body's font size - 16px
+
+% -->percentages 0-100%
+
+vw,vh -- visible height,visible width
+50vh ---> 50% of visible height
+50vw ---> 50% of visible width

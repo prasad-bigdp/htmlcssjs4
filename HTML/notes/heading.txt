@@ -1,0 +1,14 @@
+HTML Provides 6 Headings ranging from h1 to h6.
+
+h1 is the largest Heading
+h6 is the smallest heading
+
+The only difference between all headings is Size
+
+By default all headings are bold
+
+According to Search Engines, it is always recommanded to keep one h1 per page.
+
+We can use p tag for paragraph and we can generate random paragraph by entering lorem.
+
+

@@ -1,0 +1,21 @@
+CSS TOPICS
+-----------------
+Introduction
+inline,internal,external
+basic selectors(tag,class,id)
+background colors,gradients,images
+fonts,font families
+text
+box model(border,padding,margin,border-radius)
+units
+advanced selectors, pseudo classes, pseudo elements
+transitions
+float
+display
+flex
+grid
+positions
+animations
+media queries
+3d
+libraries

@@ -1,0 +1,44 @@
+*{
+     box-sizing: border-box;
+     font-size: 10px;
+}
+body{
+    background-color: hsla(235, 100%, 69%, 0.5);
+}
+
+
+
+
+
+h1
+{
+    background-color: greenyellow;
+}
+.chitti
+{
+    background-color: yellow;
+    color: red;
+}
+#bujji{
+    background-color: aqua;
+}
+
+.myDiv{
+    background-color: red;
+    width: max-content;
+    border-left: 2px solid yellow;
+    height: 50px;
+    padding: 15px;
+    margin:20px 50px 10px 30px;
+  
+}
+
+
+
+
+
+
+
+
+
+

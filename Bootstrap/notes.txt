@@ -1,0 +1,19 @@
+Bootstrap is a Component Library which can be used for responsive user interface
+The current version of Bootstrap is Bootstrap 5.
+How to Start/link Bootstrap in HTML?
+  getbootstrap.com ---> docs --> introduction ---> copy cdn links and paste in your HTML
+
+To understand Bootstrap , you have to understand 3 things
+ 1. colors
+ 2. layouts & Breakpoints
+ 3. Components
+
+ 1. colors: primary,secondary,success,danger,warning,info,dark/black,light/white
+
+ 2. Layout: Bootstrap always follows Grid Layout of 12 columns
+
+ Bootstrap follows mobile first design and it has some break points
+
+
+
+

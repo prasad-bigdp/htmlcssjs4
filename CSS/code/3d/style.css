@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+perspective: 400;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+position: relative;
+display: flex;
+}
+.box1,.box2{
+ height: 500px;
+    width: 500px;
+   
+    font-size: 40px;
+    color: white;
+    box-shadow: 5px 5px black;
+    animation: flip-horizontal-bottom 3s ease infinite alternate both;
+}
+.box1{
+    background-color: red;
+        transition:all 5s ease;
+
+}
+.box2{
+    background-color: green;
+    transform: rotateY(-180deg);
+}
+.box1:hover{
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    .box2
+        {
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    z-index: 5;
+    }
+    
+}
+@-webkit-keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
+}
+

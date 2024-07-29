@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+body{
+ font-family: "Oswald", sans-serif;
+ --mycolor:#c6fa73;
+}
+.btn-primary{
+    background-color: var(--mycolor) !important;
+    color: white !important;
+}

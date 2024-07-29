@@ -1,0 +1,85 @@
+CSS - cascading style Sheets used for styling/design/layout of the web page
+
+How do you link /apply CSS to HTML?
+we can do by three ways
+1. inline Styling: It applies style properties with 'style' as a attribute
+Eg:
+<h1 style="background-color: red;color: yellow;">Hello World</h1>
+
+2. internal styling: You Can Apply styling Internally in head as 'style' as a element
+<style>
+        h1
+        {
+            color: rgb(49, 83, 221);
+        }
+    </style>
+
+3. External CSS: We can mention CSS externally as .css file and link it in HTML in head
+    <link rel="stylesheet" href="./first.css">
+
+inline > internal > external
+
+How do CSS exactly selects elements?
+Basic Selectors: 
+ tag name:  you can select elements by tag name
+ class name: you can select elements by class name but for classname , you should mention as .classname
+ id name: you can select elements by id name but for id name, you should mention as #idname
+
+ id > class > tagname
+
+ Box Model: Every Element in Web page is consider as a BOX.
+ Box contains some content along with padding,border,margin
+Border: border will have width, type and color of the border, it is outermost line of the Box
+eg: border:2px solid red;
+Padding: padding is nothing but space between content and border(internal space).
+you can specify padding by padding-left,padding-right,padding-bottom,padding-top
+padding:10px will take 10px padding in all sides
+padding:10px 20px 
+   ---> tb(10px) lr(20px)
+padding:10px 20px 30px;
+   ----> t(10px) lr(20px) b(30px)
+padding:10px 20px 30px 40px;
+        t      r    b   l
+
+margin: margin is the gap outside the border
+you can also apply margin similar as padding
+
+Box- sizing: when we apply some padding, it might increase height / width of an element, to avoid that we can assign box-sizing as border-box(by default it is content box)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

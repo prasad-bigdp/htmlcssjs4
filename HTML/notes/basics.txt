@@ -1,0 +1,58 @@
+internet Fundamentals:
+ --- Internet is a network of networks
+ -- client request the server and server respond to the client
+ --  browser---> ISP--->DNS---->server
+ -- Google Developer Tools(inspect,console,sources,network etc..,)
+ -- Inspect the Actual Live Websites and change them
+ -- How Websites(collection of Web Pages) work?
+ -- How Website Developement Work?
+ -- Design Principles
+ -- Figma. building pages
+ -- Hashnode, dev.to
+
+
+"ROBO - chitti"
+HTML - structure of the Website like initial iron ROBO
+CSS - style/Design of the Website like makover robo as rajini
+JS - functioning of the Website like teaching/making robo to do something.
+
+Initally, 1989 Tim Berners Lee started WWW and HTML. W3C(World Wide Web Consoritum) is an organization which sets the Standard for HTML,CSS,JS
+
+Current Version Of HTML is HTML5
+
+Install VSCode
+Install LiveServer
+
+Open an empty folder and create a file
+"index.html" and start writing HTML.
+
+The default shortcuts or emmets to get template code are !+enter or html:5 + enter
+
+HTML: Hyper Text Markup Language started by Tim Berners Lee in 1989-1991.
+HTML is used for the structure or Skeleton of the Website
+
+Structure of HTML
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title of Web Page</title>
+  </head>
+  <body>
+    Hello World
+  </body>
+</html>
+
+USE ONLINE COMPILER ALWAYS
+
+
+
+
+
+
+
+
+
+

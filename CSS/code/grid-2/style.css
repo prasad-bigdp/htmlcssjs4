@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.box{
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    animation: reveals 3s ease infinite alternate;
+    position:relative;
+    left:-400px
+}
+.box8{
+    grid-column-start: 2;
+    grid-column-end:4
+}
+@keyframes reveals {
+   100%{
+    position: relative;
+    left:0px
+   } 
+}
+.box1{
+ animation-delay: 1s;
+}
+.box2{
+ animation-delay: 1.2s;
+
+}
+.box3{
+ animation-delay: 1.4s;
+
+}
+
+
+

@@ -1,0 +1,7 @@
+Positions: position will make an element placed anywhere in the viewport
+There are 5 positions in CSS
+1.static (default): it will not any impact of top,left,right,bottom
+2.absolute
+3.relative
+4.fixed
+5.sticky
