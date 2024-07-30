@@ -2,4 +2,29 @@ when we start coding, we may ran into bugs
 
 Git is a distributed version control system that monitors code for every change
 
-download Git
+download Git and install Git and check the commands by "git -v"
+
+1. git init
+2. git add .
+3. git commit -m "message"
+           ---> git config -g user.email "emailid"
+           ---> git config -g user.name "username"
+
+repeat 2 & 3
+goto github.com , create an account, create some repository
+
+4. git remote add origin "repository link"
+5. git push -u origin main/master
+  first time it asks for login and autorization
+
+
+  2,3,5 repeat evey day
+
+
+
+
+
+
+
+
+

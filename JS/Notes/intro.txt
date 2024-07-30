@@ -1,0 +1,59 @@
+what is Javascript?
+Javascript is client side programming language of the web. we use it to build functionality of the website
+client server models states that client requests the server and server responds to the client
+Erich Moch developed JS in 1994 and became public in 1995. initially it is named as "LiveScript". it is renamed as javascript since the java is so popular at that times
+Browsers execute JS because browsers have a special JS Engine
+chrome --- v8
+firefox --- spidermonkey
+edge --- chakra
+js is single threaded,synchronous programming language
+single threaded -- one task at a times
+synchronous -- line by line
+
+2. How to include js with HTML?
+There are two ways
+  internal JS: we can include js using script tag anywhere in HTML
+  <script>
+        console.log("hello")
+    </script>
+  external JS: we can include js using script tag with specified path anywhere in HTML
+      <script src="./index.js"></script>
+
+3. how to comment a line in JS?
+JS follows two comments
+  single line: single line comments are followed by //
+  multi line: multi line commenrts are between /* and */
+
+4. explain Developer Tools:
+  Developer Tools Explains How code flow is Working, We use it in Debugging. We have options like
+  elements, console, sources, networks, performance,memory,application,lighthouse
+
+5. what are the variables/identifiers?
+  variables hold the values which may change. we can use variables by var,let,const  
+  diffence between let,var,const:
+ --- var can redeclare and reassign
+ --- let and const cannot redeclare. let can reassign but const can't
+ --- var is a function scoped variable(live throught the function)
+ --- let and const are block scoped variables (they live only in that block - within braces ) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
