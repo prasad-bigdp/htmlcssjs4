@@ -1,0 +1,28 @@
+Basics:
+-------
+intro
+working of js engines
+data types(primitive - number,string,boolean,undefined,null)
+data types(non-primitive - arrays, functions, objects)
+control statements (if,switch)
+loops(while,dowhile,for,for..in,for..each.for..of)
+
+DOM(Document Object Model)
+---------------------------
+selection,  
+manipulation,
+create
+
+Async:
+--------
+fetch,
+promises,
+async-await
+axios,
+ajax,
+
+Advanced:
+ES6
+oops
+prototypes
+libraries

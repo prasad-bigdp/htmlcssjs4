@@ -1,0 +1,11 @@
+if we want to cook some item eg: biryani, list out ingedients and run process
+
+similarly JS engine always tops out your declarations
+
+The process of moving declaration of variables, functions,classes to the top of your code before executing the code is called hoisting. To say simply, you can use values before declaration
+
+Global Execution Content maintained by window object will perform hoisting and will execute the whole code
+
+normal functions use local execution content. to manage multiple execution content , js uses stack called call stack. it follows Last in first Out
+
+let and const values also follows hoisting but you cannot access them because they will be temporal dead zone

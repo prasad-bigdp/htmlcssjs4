@@ -39,7 +39,7 @@ JS follows two comments
 
 
 
-
+/* create a html and connect js using internal and external create variables in both and console them. also use single and multiline comments to explain your code */
 
 
 

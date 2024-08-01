@@ -1,0 +1,4 @@
+1. what is JS?
+2. what is the difference between var,let,const?
+3. what is hoisting?
+4. what is global execution content and callstack?
