@@ -1,0 +1,25 @@
+Data types defines the type of data the variable holds
+There are categories of data types
+ i. primitve data types: There are primarily 5 primitve data types
+    a. number: any numerical value(integer/decimal) is number data type
+    number data type have default methods:
+    toFixed(no-of-decimal-digits)
+    toPrecision(no-of-digits from starting)
+    toString(base to convert from decimal)
+
+    we can also use math methods like sqrt,cbrt,ceil,floor,round,pow,random,max,min etc..,
+
+    2. strings:  strings are declared in three ways
+    single quotation / double quotation / backtick
+
+    There is no differnece between single or double quotations but we use it based on situation. backticks are part of template literal. template literal is a Es6 feature used to print value of a variable without breaking the paragraph
+
+    strings store the individual characters like array with index values
+    let str="PRASAD"
+
+    the popular string methods are length, toUpperCase,toLowerCase, indexOf,lastIndexOf,charAt,slice,split,replace,replaceAll,trim,endsWith,startsWith
+
+    c. boolean: boolean is used to store true/false. 1 means true and 0 means false
+    d. undefined: undefined represents accidental absence of value
+    e. null: null represents complete absence of value
+ ii. non- primitve data types
