@@ -23,3 +23,10 @@ There are categories of data types
     d. undefined: undefined represents accidental absence of value
     e. null: null represents complete absence of value
  ii. non- primitve data types
+ The major difference between primitve and non primitve data types is primitve data types considers value and non primitve data types considers address/ reference
+ let str= "sharon"; let str1="sharon" and str==str1 holds true value
+ but let a=[2,3];let b=[2,3]; and a==b holds false value because arrays are non primitive and they compare addresses. thats why non primitve also called reference data types . primitive are immutable and non primitve are mutable
+ Popular non-primitive are 
+  1. arrays
+  2. objects
+  3. functions

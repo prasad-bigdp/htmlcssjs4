@@ -1,0 +1,4 @@
+In Javascript, each function will its definition and calling.
+functions create their own execution content called local execute content. functions are nothing but a small division of code / a particular task
+function is called the first class citizen of Javascript
+  --->function can be written/treated as a variable
