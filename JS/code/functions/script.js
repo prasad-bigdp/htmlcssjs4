@@ -1,8 +1,15 @@
+(function ()
+{
+    console.log("I'm working........")
+})(); //Immediate Invoke Function Expression
+
 let dance2 = 25;
+// simple function
 function dance ()
 {
-    console.log("I'm dancing")
+    console.log("I'm dancing") //definition
 }
+console.log(dance)
 let dance3 = function () // function expression
 {
         console.log("I'm dancing")
@@ -14,7 +21,7 @@ function addition (a, b=10)
 {
     console.log(`the addition of ${a} and ${b} is ${a+b}`)
 } 
-addition(5)
+addition(5,20)
 
 // function can return values
 function sqaure (a)
@@ -26,15 +33,31 @@ console.log(x)
  
 // callback functions
 /* We can declare one function inside another function parameters called callback function */
+function what(hi,hello){
+console.log(`hi,${hi}`);
+hello();
+}
+function why(){
+console.log("javascript is awesome")
+}
+what("i'm shruti",why)
+
+
+
+
+
+
+
+
 function mad ()
 {
-    console.log("I'm Mad")
+    console.log("I'm your dad")
 }
-function bad ()
+function bad (a)
 {
-    console.log("i'm bad")
+    console.log(a+"if you are bad")
 }
-function combine (x, y) { x(); y(); }
+function combine (x, y) { y(5); x(); }
 combine(mad,bad) // combine is higher order and mad,bad are callback functions
 
 // closures

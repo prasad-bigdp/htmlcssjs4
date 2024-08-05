@@ -1,0 +1,3 @@
+Arrays are used to store a set of items/elements
+let arr= [8,9,0,6,5,"prasad"]
+Arrays are declared using square brackets and it stores the data using indexes . always index starts from zero

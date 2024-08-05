@@ -2,3 +2,8 @@ In Javascript, each function will its definition and calling.
 functions create their own execution content called local execute content. functions are nothing but a small division of code / a particular task
 function is called the first class citizen of Javascript
   --->function can be written/treated as a variable
+  ---> functions can remeber out function values called closures
+  ---> one function pass as a parameter to another function called callback function. the function that receives another function as a parameter is Higher Order Function
+  ---> functions can also take parameters and can make default paarameters
+  ---> functions can even return the values
+  ---> functions can call themselves called IIFE
