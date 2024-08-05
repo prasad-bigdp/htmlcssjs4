@@ -1,0 +1,5 @@
+Control Statements are used to control the flow of document using a condition
+There are two control statements:
+ i. if...
+    //simple if
+ ii.switch
