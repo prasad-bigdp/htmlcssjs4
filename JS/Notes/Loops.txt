@@ -1,0 +1,21 @@
+Loops are used to iterate/repeat certain statements multiple times
+Each time is called one iteration
+it runs until given condition is false
+there are two types of Loops
+i. Entry Control Loops:Entry Control loop checks condition at the starting of the loop
+  a. while loop:
+   eg: i=1; //initialization
+   while(i<=10){ //condition
+    console.log(i++) //updation
+   }
+  b. for loop:
+  for(initialization;condition;updation)
+  {
+    //statements
+  }
+ii. Exit control Loop:Entry Control loop checks condition at the ending of the loop
+  a. do-while:
+  eg: i=11;
+  do{
+    console.log(i++);
+  }while(i<=10)
