@@ -1,0 +1,12 @@
+Document Object Model(DOM):
+Browser also copies HTML and CSS and stores in one object called document
+To undertsand DOM, we need to Understand 4 important things
+ a. events
+ b. DOM selection: Document elements can be accessed/selected from HTML to Javascript by 5 ways
+   i. getElementsByTagName: it returns values in HTMLCollection Array and we can access any element using index
+   ii. getElementsByClassName: it returns values in HTMLCollection Array and we can access any element using index 
+   iii.getElementById
+   iv. querySelector
+   v. querySelectorAll
+ c. DOM Manipulation
+ d. DOM creation

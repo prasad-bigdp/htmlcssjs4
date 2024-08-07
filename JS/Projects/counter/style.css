@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 2px 3px black;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;   
+}
+button
+{
+    height: 20px;
+    width: 50px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: tomato;
+    color: white;
+}
