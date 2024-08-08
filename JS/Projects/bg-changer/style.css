@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 30px;
+}
+button{
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+}
+.dark{
+    background-color: black;
+    color: white;
+}

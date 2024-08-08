@@ -1,3 +1,28 @@
 Arrays are used to store a set of items/elements
 let arr= [8,9,0,6,5,"prasad"]
 Arrays are declared using square brackets and it stores the data using indexes . always index starts from zero
+arrays have some default methods
+--> arr.length -- number of elements in the arrays
+--> arr.indexOf(ele) -- finds the index of first occurence of ele in arr
+--> arr.lastIndexOf(ele) -- finds the index of last occurence of ele in arr
+--> arr.push(val)-- it adds the val to the array at the end of the array. it can add multiple values at a time
+--> arr.pop() -- pop will remove the last element of the array
+--> arr.unsift(ele)-- add ele to array at the starting of the array
+--> arr.shift() -- removes the first element of the array
+-->arr.splice(s,dc,ins)-- it takes three arguments. s is the starting index value, dc is deleteCount, ins is value to insert
+--> arr.reverse()-- reverse the given array
+--> arr.sort()-- sort the array in alphabetical order including numbers
+--> arr.concat(arr1) -- adds the arr1 to arr
+--> arr.forEach(callback) -- runs the callback for each and every element of arr. callback accepts first parameter as element and second as index
+--> arr.map(callback) -- runs the callback for each and every element of the arr  similar to forEach but it can return any values
+--> arr.filter(callback) -- returns only the values where callback returns true
+--> arr.reduce(callback,initialvalue) - callback takes previous and current values. and update previous everytime
+
+
+
+
+
+
+
+
+
