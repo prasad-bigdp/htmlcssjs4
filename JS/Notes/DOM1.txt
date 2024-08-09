@@ -1,12 +1,35 @@
 Document Object Model(DOM):
 Browser also copies HTML and CSS and stores in one object called document
 To undertsand DOM, we need to Understand 4 important things
- a. events
+ a. events: Events are the triggering points and based on certain user actions, these events triggers different functionalities.
+  Events can be represented in two ways
+  i. event handlers: Event handlers are events that are presented in HTML
+  <button onclick="fun()">click me</button>
+  ii. event listener: Event listners are events that are presented in Javascript
+  selectedElemenet.addEventListner('click',callback)
+
+
+
+
+
+
+
+
+
+
+
+
  b. DOM selection: Document elements can be accessed/selected from HTML to Javascript by 5 ways
    i. getElementsByTagName: it returns values in HTMLCollection Array and we can access any element using index
    ii. getElementsByClassName: it returns values in HTMLCollection Array and we can access any element using index 
-   iii.getElementById
-   iv. querySelector
-   v. querySelectorAll
- c. DOM Manipulation
+   iii.getElementById: it returns values/ element alone since id is unique
+   iv. querySelector: it returns only first element that satisfies the given query
+   v. querySelectorAll: it returns all elements which satisfies the query in a array of NodeList
+ c. DOM Manipulation: We can even manipulate through DOM by following ways
+   i.textContent: it is used to access/ update the text inside selected element
+   ii. innerText: it is used to access/ update the text inside the selected element. the difference is  it also access CSS , so that if in case visibility hidden it cannot see the text
+   iii. innerHTML. using innerHTML, you can add HTML code and it will be executed and added to DOM
+   iv. value: if you want to access values, you can use value for input elements
+   v. style: it is used to access/update style of the selected element
+   vi. classList: we can add any class/remove any class/toggle any class using classList
  d. DOM creation
