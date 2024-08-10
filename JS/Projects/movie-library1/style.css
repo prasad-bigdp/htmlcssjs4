@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+.movie{
+    box-shadow: 5px 5px black;
+    border-radius: 20px;
+    padding: 50px;
+    transition: all 1s ease;
+}
+.movie:hover{
+    transform: scale(1.05);;
+}

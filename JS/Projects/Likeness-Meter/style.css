@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(white,red);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    gap: 30px;
+}
+input{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 24px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+#result{
+    font-size: 80px;
+    color: white;
+}
