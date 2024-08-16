@@ -1,5 +1,23 @@
 JS is a synchronous(line by line) , Single Threaded (one task at a time )Language
 
-Asynchronous functions will take some time to execute. every asynchronous returrns a promise
+Asynchronous functions will take some time to execute. every asynchronous returns a promise
 
 let's learn  asynchronous by Timers
+
+setTimeOut,setInterval,clearTimeout,clearInterval
+
+A Promise is an Object which describes an eventual completion of an asynchronous function
+  eg: new Promise(function(resolve,reject){
+    resolve("hai");
+    reject("bye")
+  })
+
+  API(Application Programming Interface):
+
+  Applications get data from another applications or from backend using an endpoint
+
+  for Eg:In this https://api.quotable.io/random, https://api.quotable.io is domain, /random is called endpoint. this point contains data either in XML or JSON(Javscript Object Notation - all keys are strings) format
+
+
+
+
