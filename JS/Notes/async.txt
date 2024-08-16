@@ -1,0 +1,5 @@
+JS is a synchronous(line by line) , Single Threaded (one task at a time )Language
+
+Asynchronous functions will take some time to execute. every asynchronous returrns a promise
+
+let's learn  asynchronous by Timers
