@@ -18,6 +18,9 @@ A Promise is an Object which describes an eventual completion of an asynchronous
 
   for Eg:In this https://api.quotable.io/random, https://api.quotable.io is domain, /random is called endpoint. this point contains data either in XML or JSON(Javscript Object Notation - all keys are strings) format
 
+Async - Await :
+  
+
 
 
 
