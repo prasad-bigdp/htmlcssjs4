@@ -1,0 +1,100 @@
+ES6: Ecmasript maintains (release /updates) versions for all scripting languages
+Recent version of EcmaScript is ES13 but Es6 is most popular and changed JS in so many Ways. Es6 is released in 2015,also known as Es2015.
+Features added in ES6 are
+i. Arrow Functions:Arrow functions are modern way of Writing Functions. if only one statement is there, Arrow Functions will return without return keyword 
+function display()
+{
+console.log("hello world")
+}
+const display = ()=> console.log("hello world")
+
+ii. let and const:
+let and const are block scoped variables. let and const will not allow redeclare. const won't allow reassign also. you cannot access let and const values before initialization
+
+let a=25;const b=35;
+
+iii. template literals: theses are used to print strings with dynamic data without breaking the strings
+let a=20,b=30;
+console.log("the sum of "+a+" and "+b+" is "+(a+b))
+console.log(`the sum of ${a} and ${b} is ${a+b}`);
+
+iv. rest vs spread operators:
+The rest operator is denoted by three dots (...)
+The spread operator is denoted by three dots (...)
+function sum (a,...b)
+{
+  console.log(b) //[2,3,4,5]
+    let newArr = [4, 5, 6, 7, ...b]
+    console.log(newArr)
+}
+sum(1,2,3,4,5)
+rest is used to take the values as rest of the parameters
+spread is used to spread the values of array
+
+v. destructuring:
+you can destructure an array or an object such that you can use its values directly
+let arr = [2, 5, 8, 7];
+const [a, b, ...c] = arr;
+console.log(a)
+
+let emp = {
+    name: "prasad",
+    salary:"80000"
+}
+const {name,salary}= emp
+console.log(salary)
+destructuring is used to destructure/ separate the values from an array or object
+
+OOP(object Oriented Programming): JS is not fully Object Oriented and OOP started in JS from ES6
+Object - object is a physical entity with some attributes 
+Class - class is a collection of objects
+Eg: Mango 
+Apple 
+Fruit -- color,shape,taste -ripe()
+Fruit is a class and Apple and Mango are objects.
+
+car is a class , bmw, kia,rolls royce are objects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
