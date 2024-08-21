@@ -24,5 +24,6 @@ ajax,
 Advanced:
 ES6
 oops
+BOM
 prototypes
 libraries

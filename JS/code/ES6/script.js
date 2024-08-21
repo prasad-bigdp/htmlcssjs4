@@ -40,7 +40,7 @@ class Vehicle extends Car
     }
 }
 let obj = new Vehicle("4 wheeler","Black",300)
-console.log(obj.)
+console.log()
 
 /* create a class teacher with attributes tid,tname,tsalary
 and create an object and assign values and print them*/
@@ -49,4 +49,12 @@ and create an object and assign values and print them*/
 1. abstraction - abstract classes are not recommanded in JS 
 2. encapsulation - combining data and methods together as a single unit. this is optional in JS
 3. inheritance - JS supports inheritance using extends keyword */
+
+
+
+
+
+
+
+
 

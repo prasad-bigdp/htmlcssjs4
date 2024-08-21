@@ -1,5 +1,5 @@
 ES6: Ecmasript maintains (release /updates) versions for all scripting languages
-Recent version of EcmaScript is ES13 but Es6 is most popular and changed JS in so many Ways. Es6 is released in 2015,also known as Es2015.
+Recent version of EcmaScript is ES13 but ES6 is most popular and changed JS in so many Ways. Es6 is released in 2015,also known as Es2015.
 Features added in ES6 are
 i. Arrow Functions:Arrow functions are modern way of Writing Functions. if only one statement is there, Arrow Functions will return without return keyword 
 function display()
@@ -24,7 +24,7 @@ The spread operator is denoted by three dots (...)
 function sum (a,...b)
 {
   console.log(b) //[2,3,4,5]
-    let newArr = [4, 5, 6, 7, ...b]
+    let newArr = [4, 5, 6, 7, ...b] // [4,5,6,7,2,3,4,5]
     console.log(newArr)
 }
 sum(1,2,3,4,5)
@@ -48,12 +48,68 @@ destructuring is used to destructure/ separate the values from an array or objec
 OOP(object Oriented Programming): JS is not fully Object Oriented and OOP started in JS from ES6
 Object - object is a physical entity with some attributes 
 Class - class is a collection of objects
+Eg:fan is an object, tv is an object
+Electronics is class
 Eg: Mango 
 Apple 
 Fruit -- color,shape,taste -ripe()
 Fruit is a class and Apple and Mango are objects.
 
 car is a class , bmw, kia,rolls royce are objects
+
+
+
+
+
+
+class Student{
+  rno;name;marks
+  constructor(r,n,m)
+  {
+    this.rno=r;
+    this.name= n;
+    this.marks= m
+  }
+}
+let s1= new Student(55,"raj",25)
+console.log(s1.name)
+class Leader extends Student{
+  prize;
+  constructor(r,n,m,p){
+    super(r,n,m);
+    this.prize=p;
+  }
+} 
+let l = new Leader(26,"Prasad",36,"chocolate")
+console.log(l.name,l.prize)
+
+There is another important feature of ES6. ES6 module System
+
+Modules:Module Systems are used to combine two or more js files such that data/methods in one js file can be used by another js file
+
+if you want to export any data/ funtion, you can export all of them as a single unit/individual
+//script2.js
+let printt = ()=>
+{
+    console.log("i3m printing")
+}
+let a = 20, b = 30, c = 5;
+let obj = {
+    name: "shekhar",
+    age:35
+}
+let arr = [5, 7, 8, 9]
+export { printt, a, b, c, arr }
+export default obj
+//script3.js
+import { printt, a, b, c, arr } from "./script2.js";
+import p from './script2.js'
+
+console.log(a)
+
+Earlier we used to do common js or require js module systems
+
+
 
 
 
