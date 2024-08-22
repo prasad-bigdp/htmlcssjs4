@@ -1,0 +1,26 @@
+Whole JS Engine is Maintained by Global Execution Content which is maintained by One Object called Window.
+window is used to manipulate browser events(onload etc..,),web API's(document,timers,fetch,console),location,history,navigatoe etc..,
+// user's location
+window.navigator.geolocation.getCurrentPosition((pos)=>console.log(pos.coords))
+
+//video or audio
+window.navigator.mediaDevices.getUserMedia({video:true,audio:true}).then((s)=>video.srcObject=s)
+
+//location
+window.location.href -- current url
+
+//Browser can store values using Local or session Storage
+// There are two ways of Browser Storage
+1. localStorage: local storage is a permanant storage in browser
+2. sessionStorage: session Storage will get expires once user closes the browser
+
+localStorage.setItem('age', 50);
+console.log(localStorage.getItem('age')) //50
+localStorage.removeItem('name');
+localStorage.clear()// session storage also similar to localStorage but stores the data only until broser closes
+
+
+
+
+
+

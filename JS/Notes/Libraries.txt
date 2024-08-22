@@ -1,0 +1,5 @@
+Libraries: library is nothing but pre written code used for a specific purpose eg:react
+Framework:Framework is nothing but complete package of a project eg:angular,next js, nuxt js
+
+There are so many Libraries:
+i. JQuery - Jquery can be used for Easy DOM manipulations and DOM animations
