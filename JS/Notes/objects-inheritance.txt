@@ -1,0 +1,1 @@
+Object is used wrap data(property) and methods in key value pairs

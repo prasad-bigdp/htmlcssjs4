@@ -14,6 +14,17 @@ function fetchData ()
         })
         .catch(function(err){ console.log("Error: "+ err)  })
 }
+function fetchData3() {
+	axios.get("https://api.quotable.io/random")
+		.then(function (res) {
+			console.log(res)
+		})
+		
+		.catch(function (err) {
+			console.log("Error: " + err)
+		})
+}
+fetchData3()
 function fetchData2 ()
 {
     fetch("https://official-joke-api.appspot.com/random_joke")

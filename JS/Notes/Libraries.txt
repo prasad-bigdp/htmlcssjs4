@@ -3,3 +3,8 @@ Framework:Framework is nothing but complete package of a project eg:angular,next
 
 There are so many Libraries:
 i. JQuery - Jquery can be used for Easy DOM manipulations and DOM animations
+ii. AOS - Animate on Scroll
+iii. Typed JS - we will some typing animations
+iv. Swiper JS -- used for slider, slick js -- sliders
+v.partcles JS -- used for Particle animations
+vi. 

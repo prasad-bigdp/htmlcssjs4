@@ -28,4 +28,18 @@ $('#btn').click(function ()
 		scrollbar: {
 			el: ".swiper-scrollbar",
 		},
+  })
+	
+//GSAP
+gsap.registerEffect({
+	name: "prasad",
+	defaults: { duration: 2 }, //defaults get applied to the "config" object passed to the effect below
+	effect: (targets, config) => {
+		return gsap.to(targets, { duration: config.duration, opacity: 0 })
+	},
+})
+document.querySelectorAll(".box").forEach(function (box) {
+	box.addEventListener("click", function () {
+		gsap.effects.prasad(this)
 	})
+})
