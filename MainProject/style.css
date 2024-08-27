@@ -12,3 +12,18 @@ gap: 20px;
     box-shadow: 5px 5px black;
     border-radius: 20px;
 }
+.cartItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cartItem img{
+    height: 100px;
+    width: 100px;
+}
+@media (max-width:680px)
+{
+    #productsList{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

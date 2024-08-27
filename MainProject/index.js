@@ -24,6 +24,8 @@ function displayData(data)
         proLink.href= `./product.html?pid=${val.id}`
         const proButton = document.createElement('button')
         proButton.textContent = "ADD to Cart"
+        proButton.addEventListener("click",
+            () => updateCount(val))
         proDiv.append(proImage, proLink, proPrice, proButton)
         mainDiv.appendChild(proDiv)
   }) 
