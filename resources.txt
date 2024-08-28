@@ -1,50 +1,12 @@
-internet
-web devlopement process
-web design(ui/ux),figma
-hashnode,dev.to
-html
----------
-intro,
-heading,p,a,img
-lists
-tables
-block vs inline, semantic
-forms
-media,formatting tags
-html:5
+// where and how to practise?
+https://github.com/markodenic/web-development-resources
+https://roadmap.sh/
+take some project in github and modify it
 
-  -- WWW,Profile,Timetable,Form,resume
-
-
-CSS
-----
-intro,
-fonts,colors
-bg-images,ccolors,gradients
-units
-box model
-flex
-grid
-transition
-animations
-advanced selectors
-positions,float,3d
-
---- frontendmentor
--- traffic lights
--- tribute page
-
-Main --> HTML,CSS Portfolio
-
-
-Bootstrap --- introduction, breakpoints & layout , Components
-
-Js- 4 weeks
-
-
-
-
-
-
-
-
+// how to make resume and apply jobs?
+resume - make a nice resume(career objective,education/experience,skills,projects,internship,certificates,Hobbies)
+  -- naukri premium
+  -- linkedin premium
+// what to choose next?
+-- react 
+-- apply for jobs
